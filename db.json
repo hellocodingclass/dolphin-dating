@@ -1,0 +1,21 @@
+{
+    "dolphins": [
+      {
+        "id": 1,
+        "name": "Dolphin1",
+        "age": 25,
+        "gender": "male",
+        "interests": ["swimming", "playing", "surfing"],
+        "qualities": ["friendly", "adventurous", "good listener"]
+      },
+      {
+        "id": 2,
+        "name": "Dolphin2",
+        "age": 22,
+        "gender": "female",
+        "interests": ["diving", "singing", "dancing"],
+        "qualities": ["fun-loving", "creative", "compassionate"]
+      }
+    ]
+  }
+  
