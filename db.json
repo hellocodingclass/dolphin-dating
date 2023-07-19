@@ -1,21 +1,104 @@
 {
-    "dolphins": [
-      {
-        "id": 1,
-        "name": "Dolphin1",
-        "age": 25,
-        "gender": "male",
-        "interests": ["swimming", "playing", "surfing"],
-        "qualities": ["friendly", "adventurous", "good listener"]
-      },
-      {
-        "id": 2,
-        "name": "Dolphin2",
-        "age": 22,
-        "gender": "female",
-        "interests": ["diving", "singing", "dancing"],
-        "qualities": ["fun-loving", "creative", "compassionate"]
-      }
-    ]
-  }
-  
+  "dolphins": [
+    {
+      "id": 1,
+      "name": "Daisy",
+      "age": 8,
+      "gender": "female",
+      "location": "Ocean City",
+      "interests": ["swimming", "surfing", "music"],
+      "description": "Daisy is a fun-loving and adventurous dolphin who enjoys exploring the ocean depths.",
+      "image": "https://example.com/daisy.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Max",
+      "age": 10,
+      "gender": "male",
+      "location": "Coral Bay",
+      "interests": ["diving", "volleyball", "reading"],
+      "description": "Max is a laid-back and intellectual dolphin who loves engaging in deep conversations.",
+      "image": "https://example.com/max.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Luna",
+      "age": 6,
+      "gender": "female",
+      "location": "Sandy Shores",
+      "interests": ["dancing", "yoga", "cooking"],
+      "description": "Luna is a graceful and creative dolphin who enjoys expressing herself through art and movement.",
+      "image": "https://example.com/luna.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Finn",
+      "age": 7,
+      "gender": "male",
+      "location": "Paradise Cove",
+      "interests": ["surfing", "beach volleyball", "photography"],
+      "description": "Finn is an energetic and outgoing dolphin who loves capturing beautiful moments in the ocean.",
+      "image": "https://example.com/finn.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Coral",
+      "age": 9,
+      "gender": "female",
+      "location": "Tropical Island",
+      "interests": ["snorkeling", "hiking", "marine biology"],
+      "description": "Coral is an intelligent and curious dolphin who is passionate about exploring marine life.",
+      "image": "https://example.com/coral.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Leo",
+      "age": 12,
+      "gender": "male",
+      "location": "Deep Sea",
+      "interests": ["adventure", "treasure hunting", "exploration"],
+      "description": "Leo is a daring and fearless dolphin who embarks on thrilling underwater expeditions.",
+      "image": "https://example.com/leo.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Pearl",
+      "age": 5,
+      "gender": "female",
+      "location": "Crystal Cove",
+      "interests": ["singing", "dancing", "fashion"],
+      "description": "Pearl is a vibrant and talented dolphin who loves entertaining others with her beautiful melodies.",
+      "image": "https://example.com/pearl.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Sam",
+      "age": 11,
+      "gender": "male",
+      "location": "Mystic Bay",
+      "interests": ["meditation", "mysteries", "astronomy"],
+      "description": "Sam is a wise and introspective dolphin who seeks profound meaning in the mysteries of the universe.",
+      "image": "https://example.com/sam.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Misty",
+      "age": 7,
+      "gender": "female",
+      "location": "Enchanted Lagoon",
+      "interests": ["magic tricks", "swimming with dolphins", "art"],
+      "description": "Misty is a playful and enchanting dolphin who believes in the magic of connection and friendship.",
+      "image": "https://example.com/misty.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Oscar",
+      "age": 8,
+      "gender": "male",
+      "location": "Silver Coast",
+      "interests": ["fishing", "cooking", "gardening"],
+      "description": "Oscar is a laid-back and culinary dolphin who enjoys preparing delicious seafood delicacies.",
+      "image": "https://example.com/oscar.jpg"
+    }
+  ]
+}
