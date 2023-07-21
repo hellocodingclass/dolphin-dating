@@ -6,9 +6,13 @@
       "age": 8,
       "gender": "female",
       "location": "Ocean City",
-      "interests": ["swimming", "surfing", "music"],
+      "interests": [
+        "swimming",
+        "surfing",
+        "music"
+      ],
       "description": "Daisy is a fun-loving and adventurous dolphin who enjoys exploring the ocean depths.",
-      "image": "https://example.com/daisy.jpg"
+      "image": "https://cdn.pixabay.com/photo/2021/08/29/09/49/dolphin-6586347_1280.jpg"
     },
     {
       "id": 2,
@@ -16,7 +20,11 @@
       "age": 10,
       "gender": "male",
       "location": "Coral Bay",
-      "interests": ["diving", "volleyball", "reading"],
+      "interests": [
+        "diving",
+        "volleyball",
+        "reading"
+      ],
       "description": "Max is a laid-back and intellectual dolphin who loves engaging in deep conversations.",
       "image": "https://example.com/max.jpg"
     },
@@ -26,7 +34,11 @@
       "age": 6,
       "gender": "female",
       "location": "Sandy Shores",
-      "interests": ["dancing", "yoga", "cooking"],
+      "interests": [
+        "dancing",
+        "yoga",
+        "cooking"
+      ],
       "description": "Luna is a graceful and creative dolphin who enjoys expressing herself through art and movement.",
       "image": "https://example.com/luna.jpg"
     },
@@ -36,7 +48,11 @@
       "age": 7,
       "gender": "male",
       "location": "Paradise Cove",
-      "interests": ["surfing", "beach volleyball", "photography"],
+      "interests": [
+        "surfing",
+        "beach volleyball",
+        "photography"
+      ],
       "description": "Finn is an energetic and outgoing dolphin who loves capturing beautiful moments in the ocean.",
       "image": "https://example.com/finn.jpg"
     },
@@ -46,7 +62,11 @@
       "age": 9,
       "gender": "female",
       "location": "Tropical Island",
-      "interests": ["snorkeling", "hiking", "marine biology"],
+      "interests": [
+        "snorkeling",
+        "hiking",
+        "marine biology"
+      ],
       "description": "Coral is an intelligent and curious dolphin who is passionate about exploring marine life.",
       "image": "https://example.com/coral.jpg"
     },
@@ -56,7 +76,11 @@
       "age": 12,
       "gender": "male",
       "location": "Deep Sea",
-      "interests": ["adventure", "treasure hunting", "exploration"],
+      "interests": [
+        "adventure",
+        "treasure hunting",
+        "exploration"
+      ],
       "description": "Leo is a daring and fearless dolphin who embarks on thrilling underwater expeditions.",
       "image": "https://example.com/leo.jpg"
     },
@@ -66,7 +90,11 @@
       "age": 5,
       "gender": "female",
       "location": "Crystal Cove",
-      "interests": ["singing", "dancing", "fashion"],
+      "interests": [
+        "singing",
+        "dancing",
+        "fashion"
+      ],
       "description": "Pearl is a vibrant and talented dolphin who loves entertaining others with her beautiful melodies.",
       "image": "https://example.com/pearl.jpg"
     },
@@ -76,7 +104,11 @@
       "age": 11,
       "gender": "male",
       "location": "Mystic Bay",
-      "interests": ["meditation", "mysteries", "astronomy"],
+      "interests": [
+        "meditation",
+        "mysteries",
+        "astronomy"
+      ],
       "description": "Sam is a wise and introspective dolphin who seeks profound meaning in the mysteries of the universe.",
       "image": "https://example.com/sam.jpg"
     },
@@ -86,7 +118,11 @@
       "age": 7,
       "gender": "female",
       "location": "Enchanted Lagoon",
-      "interests": ["magic tricks", "swimming with dolphins", "art"],
+      "interests": [
+        "magic tricks",
+        "swimming with dolphins",
+        "art"
+      ],
       "description": "Misty is a playful and enchanting dolphin who believes in the magic of connection and friendship.",
       "image": "https://example.com/misty.jpg"
     },
@@ -96,9 +132,153 @@
       "age": 8,
       "gender": "male",
       "location": "Silver Coast",
-      "interests": ["fishing", "cooking", "gardening"],
+      "interests": [
+        "fishing",
+        "cooking",
+        "gardening"
+      ],
       "description": "Oscar is a laid-back and culinary dolphin who enjoys preparing delicious seafood delicacies.",
       "image": "https://example.com/oscar.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Aqua",
+      "age": 6,
+      "gender": "female",
+      "location": "Coral Reef",
+      "interests": [
+        "reef exploration",
+        "marine conservation",
+        "coral restoration"
+      ],
+      "description": "Aqua is a spirited and eco-conscious dolphin who loves exploring coral reefs and protecting marine life.",
+      "image": "https://example.com/aqua.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Ripple",
+      "age": 7,
+      "gender": "male",
+      "location": "Sunset Bay",
+      "interests": [
+        "sunset watching",
+        "relaxing swims",
+        "sandcastle building"
+      ],
+      "description": "Ripple is a laid-back and beach-loving dolphin who enjoys watching sunsets and building sandcastles.",
+      "image": "https://example.com/ripple.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Lily",
+      "age": 8,
+      "gender": "female",
+      "location": "Mangrove Forest",
+      "interests": [
+        "mangrove exploration",
+        "bird watching",
+        "kayaking"
+      ],
+      "description": "Lily is an adventurous and nature-loving dolphin who explores the beauty of mangrove forests.",
+      "image": "https://example.com/lily.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Storm",
+      "age": 9,
+      "gender": "male",
+      "location": "Stormy Sea",
+      "interests": [
+        "surfing big waves",
+        "storm chasing",
+        "sea photography"
+      ],
+      "description": "Storm is a thrill-seeking and brave dolphin who rides the waves during storms and captures the sea's beauty.",
+      "image": "https://example.com/storm.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Sandy",
+      "age": 10,
+      "gender": "female",
+      "location": "Sandy Shallows",
+      "interests": [
+        "buried treasure hunting",
+        "sand diving",
+        "beachcombing"
+      ],
+      "description": "Sandy is a curious and adventurous dolphin who seeks hidden treasures in sandy shallows.",
+      "image": "https://example.com/sandy.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Neptune",
+      "age": 11,
+      "gender": "male",
+      "location": "Deep Ocean",
+      "interests": [
+        "deep-sea mysteries",
+        "underwater caves",
+        "bioluminescence"
+      ],
+      "description": "Neptune is an enigmatic and mysterious dolphin who dives deep into the ocean to uncover its secrets.",
+      "image": "https://example.com/neptune.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Bubbles",
+      "age": 5,
+      "gender": "female",
+      "location": "Bubble Bay",
+      "interests": [
+        "bubble-blowing contests",
+        "playful water games",
+        "underwater acrobatics"
+      ],
+      "description": "Bubbles is a bubbly and playful dolphin who brings joy through her bubble-blowing skills.",
+      "image": "https://example.com/bubbles.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Mako",
+      "age": 12,
+      "gender": "male",
+      "location": "Open Sea",
+      "interests": [
+        "open sea adventures",
+        "freestyle swimming",
+        "dolphin communication"
+      ],
+      "description": "Mako is a spirited and agile dolphin who embarks on open sea adventures and studies dolphin communication.",
+      "image": "https://example.com/mako.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Stella",
+      "age": 7,
+      "gender": "female",
+      "location": "Starry Bay",
+      "interests": [
+        "stargazing",
+        "nighttime swims",
+        "constellation spotting"
+      ],
+      "description": "Stella is a dreamy and night-loving dolphin who enjoys stargazing and swimming under the moonlight.",
+      "image": "https://example.com/stella.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Comet",
+      "age": 8,
+      "gender": "male",
+      "location": "Celestial Sea",
+      "interests": [
+        "celestial wonders",
+        "comet chasing",
+        "galaxy exploration"
+      ],
+      "description": "Comet is an astronomical and curious dolphin who observes celestial wonders and explores the galaxy.",
+      "image": "https://example.com/comet.jpg"
     }
   ]
 }

@@ -11,13 +11,15 @@ const DolphinCard = ({ dolphin, liked, onLike, onDislike }) => {
 
   return (
     <div className="card">
-      <img src={dolphin.image} alt={dolphin.name} />
-      <h2>{dolphin.name}</h2>
-      <p>Age: {dolphin.age}</p>
-      <p>Gender: {dolphin.gender}</p>
-      <p>Location: {dolphin.location}</p>
-      <p>Interests: {dolphin.interests.join(', ')}</p>
-      <p>Description: {dolphin.description}</p>
+      <div className="card-content">
+        <img src={dolphin.image} alt={dolphin.name} />
+        <h2>{dolphin.name}</h2>
+        <p>Age: {dolphin.age}</p>
+        <p>Gender: {dolphin.gender}</p>
+        <p>Location: {dolphin.location}</p>
+        <p>Interests: {dolphin.interests.join(', ')}</p>
+        <p>Description: {dolphin.description}</p>
+      </div>
       <div className="buttons">
         {!liked && (
           <button className="like-button" onClick={handleLike}>
