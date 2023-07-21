@@ -2,6 +2,9 @@ import React from 'react';
 import './styles.css';
 
 const LikedDolphins = ({ likedDolphins }) => {
+
+
+  
   return (
     <div className="liked-dolphins">
       <h2>Liked Dolphins</h2>

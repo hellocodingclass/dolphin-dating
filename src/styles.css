@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Proxima+Nova:wght@400;500;700&display=swap');
-
-
 body {
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  background-color: #e0f2f1; 
+  background-image: linear-gradient(to bottom, #59c9a5, #d81e5b); /* Colorful gradient */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
-  color: #3b81a4
+  color: #fff; /* White text color */
 }
 
 .container {
@@ -15,89 +14,80 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  padding: 20px;
 }
 
 h1 {
   font-family: 'Pacifico', cursive;
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.buttons {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.buttons a {
-  text-decoration: none;
-  background-color: #08eba0;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.buttons a:hover {
-  background-color: #e019dd;
-}
-
-.buttons a.active {
-  background-color: #f4f6ef;
+  font-size: 72px; 
+  margin-bottom: 40px; 
+  color: #fff; /* White text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
 }
 
 .card {
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin-bottom: 20px;
-  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+  border-radius: 16px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 40px; 
+  margin-bottom: 40px;
+  max-width: 90%;
+  width: 600px;
+  backdrop-filter: blur(5px); /* Slight blur effect */
 }
 
 .card img {
   width: 100%;
   max-height: 300px;
   object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 10px;
+  border-radius: 16px;
+  margin-bottom: 20px;
 }
 
 .card h2 {
-  font-size: 24px;
-  margin-bottom: 5px;
+  font-size: 48px; 
+  margin-bottom: 10px;
+  color: #00474b;
 }
 
 .card p {
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
+  color: #00474b;
+  font-size: 24px; 
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
+.buttons a {
+  flex: 1;
+  margin: 10px; 
+  padding: 20px;
+  border-radius: 16px;
+  font-size: 24px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  background-color: #be007b; /* Dolphin-blue */
+  color: #fff;
+  text-decoration: none; /* Remove underline */
+  text-align: center;
+}
+
+.buttons a:hover,
+.buttons a:focus {
+  background-color: #005999; /* Darker Dolphin-blue */
+  transform: scale(1.1); /* Slight enlargement */
 }
 
 .like-button,
 .dislike-button {
   flex: 1;
-  padding: 10px;
-  border-radius: 12px;
+  margin: 10px; 
+  padding: 20px;
+  border-radius: 16px;
+  font-size: 24px; 
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.like-button {
-  background-color: #4caf50;
-  color: #fff;
-}
-
-.like-button:hover {
-  background-color: #45a049;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .dislike-button {
@@ -105,70 +95,65 @@ h1 {
   color: #fff;
 }
 
-.dislike-button:hover {
-  background-color: #d32f2f;
+.dislike-button:hover,
+.dislike-button:focus {
+  background-color: #e43327;
+  transform: scale(1.1); /* Slight enlargement */
 }
 
-.liked-dolphins {
-  margin-top: 20px;
-  max-width: 600px;
-}
-
-.matchmaking {
-  margin-top: 20px;
-  max-width: 600px;
-}
-
-.search-container {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.search-container label {
-  margin-right: 10px;
-  font-weight: bold;
-}
-
-.search-container input[type='text'] {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 14px;
-  transition: border-color 0.3s ease;
-}
-
-.search-container input[type='text']:focus {
-  outline: none;
-  border-color: #4caf50;
-}
-
-/* Add a subtle animation on card hover */
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-.nav-link {
-  text-decoration: none;
-}
-
-.nav-button {
-  padding: 12px 24px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
+.like-button {
+  background-color: #4caf50;
   color: #fff;
-  background-color: #007bff;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.nav-button:hover {
-  background-color: #0056b3;
+.like-button:hover,
+.like-button:focus {
+  background-color: #45a049;
+  transform: scale(1.1); /* Slight enlargement */
 }
-h1 {
-  font-family: 'Proxima Nova', sans-serif;
-  font-size: 36px;
-  margin-bottom: 20px;
+
+form {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  margin-bottom: 40px;
+  max-width: 90%;
+  width: 600px;
+  backdrop-filter: blur(5px);
+}
+
+form label {
+  display: block;
+  font-size: 24px;
+  color: #00474b;
+  margin-top: 20px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #00474b;
+  border-radius: 16px;
+  font-size: 24px;
+}
+
+form button {
+  background-color: #0077be;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 10px;
+  font-size: 24px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+  background-color: #005999;
+  transform: scale(1.1);
 }

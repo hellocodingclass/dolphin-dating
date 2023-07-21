@@ -4,281 +4,201 @@
       "id": 1,
       "name": "Daisy",
       "age": 8,
+      "bodyMeasurements": {
+        "length": "2.5 meters",
+        "finSize": "0.5 meters",
+        "tailSize": "0.8 meters"
+      },
+      "covidVaccinationStatus": "Fully Vaccinated",
+      "groupAffiliation": "Ocean City Pod",
+      "favoriteFood": "Squid",
       "gender": "female",
+      "genderPreference": "male",
       "location": "Ocean City",
-      "interests": [
-        "swimming",
-        "surfing",
-        "music"
-      ],
-      "description": "Daisy is a fun-loving and adventurous dolphin who enjoys exploring the ocean depths.",
-      "image": "https://cdn.pixabay.com/photo/2021/08/29/09/49/dolphin-6586347_1280.jpg"
+      "favoriteActivities": ["Surf riding", "Seaweed tossing"],
+      "greatestAchievement": "Swam around the entire pod to protect it from a shark",
+      "description": "I'm Daisy, a fun-loving and adventurous dolphin who enjoys exploring the ocean depths.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMqn8QlDbetkuhVjU4yihmmVD8GMt9VkSu3fdGBs4iz9IRbOSYyp_eMWorULKGHAZYYfU&usqp=CAU"
     },
     {
       "id": 2,
       "name": "Max",
       "age": 10,
+      "bodyMeasurements": {
+        "length": "2.7 meters",
+        "finSize": "0.6 meters",
+        "tailSize": "0.85 meters"
+      },
+      "covidVaccinationStatus": "Fully Vaccinated",
+      "groupAffiliation": "Coral Bay Pod",
+      "favoriteFood": "Mackerel",
       "gender": "male",
+      "genderPreference": "female",
       "location": "Coral Bay",
-      "interests": [
-        "diving",
-        "volleyball",
-        "reading"
-      ],
-      "description": "Max is a laid-back and intellectual dolphin who loves engaging in deep conversations.",
-      "image": "https://example.com/max.jpg"
+      "favoriteActivities": ["Shell catching", "Coral inspection"],
+      "greatestAchievement": "Led a successful migration of my pod to safer waters during a storm",
+      "description": "I'm Max, a laid-back and intellectual dolphin who loves engaging in deep conversations.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0U5_2hUC1jok0xmCxkj_1x8B29nu5atfD06e56CgnXbhDq8v871qRfnEbwmB9JOkjj3M&usqp=CAU"
     },
     {
       "id": 3,
       "name": "Luna",
-      "age": 6,
+      "age": 7,
+      "bodyMeasurements": {
+        "length": "2.4 meters",
+        "finSize": "0.4 meters",
+        "tailSize": "0.7 meters"
+      },
+      "covidVaccinationStatus": "Fully Vaccinated",
+      "groupAffiliation": "Sandy Shores Pod",
+      "favoriteFood": "Shrimp",
       "gender": "female",
+      "genderPreference": "male",
       "location": "Sandy Shores",
-      "interests": [
-        "dancing",
-        "yoga",
-        "cooking"
-      ],
-      "description": "Luna is a graceful and creative dolphin who enjoys expressing herself through art and movement.",
-      "image": "https://example.com/luna.jpg"
+      "favoriteActivities": ["Tail walking", "Shell flipping"],
+      "greatestAchievement": "Found a sunken pirate treasure",
+      "description": "I'm Luna, a graceful and creative dolphin who enjoys expressing herself through art and movement.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC09mS1Jjct9cgdsISLP7RaDdVn7QiSEzTWVYHB9e9yP8bXT-KS6QBhYcSAS2Wppg3g1U&usqp=CAU"
     },
     {
       "id": 4,
       "name": "Finn",
-      "age": 7,
+      "age": 9,
+      "bodyMeasurements": {
+        "length": "2.6 meters",
+        "finSize": "0.5 meters",
+        "tailSize": "0.8 meters"
+      },
+      "covidVaccinationStatus": "Fully Vaccinated",
+      "groupAffiliation": "Paradise Cove Pod",
+      "favoriteFood": "Herring",
       "gender": "male",
+      "genderPreference": "female",
       "location": "Paradise Cove",
-      "interests": [
-        "surfing",
-        "beach volleyball",
-        "photography"
-      ],
-      "description": "Finn is an energetic and outgoing dolphin who loves capturing beautiful moments in the ocean.",
-      "image": "https://example.com/finn.jpg"
+      "favoriteActivities": ["Wave sliding", "Tag"],
+      "greatestAchievement": "Won the annual Ocean City surfing contest",
+      "description": "I'm Finn, an energetic and outgoing dolphin who loves capturing beautiful moments in the ocean.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyEWXtsbKSoH4wXhH1AHuNSZC-F4WYWnc--pZs7Uoy7V69PdAJ3AfQy7Dl1gZBmAOnOU&usqp=CAU"
     },
     {
       "id": 5,
       "name": "Coral",
       "age": 9,
+      "bodyMeasurements": {
+        "length": "2.5 meters",
+        "finSize": "0.5 meters",
+        "tailSize": "0.8 meters"
+      },
+      "covidVaccinationStatus": "Fully Vaccinated",
+      "groupAffiliation": "Tropical Island Pod",
+      "favoriteFood": "Crab",
       "gender": "female",
+      "genderPreference": "male",
       "location": "Tropical Island",
-      "interests": [
-        "snorkeling",
-        "hiking",
-        "marine biology"
-      ],
-      "description": "Coral is an intelligent and curious dolphin who is passionate about exploring marine life.",
-      "image": "https://example.com/coral.jpg"
+      "favoriteActivities": ["Sea-grass sledding", "Coral diving"],
+      "greatestAchievement": "Discovered a new coral species",
+      "description": "I'm Coral, an intelligent and curious dolphin who is passionate about exploring marine life.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzm0jWfPJstkz0NjmCML6MdUjrI5LbYLrQ2T7bvp1cMZAIkABU4145bsIp8jaRZX0jmiU&usqp=CAU"
     },
     {
       "id": 6,
       "name": "Leo",
       "age": 12,
+      "bodyMeasurements": {
+        "length": "2.8 meters",
+        "finSize": "0.6 meters",
+        "tailSize": "0.9 meters"
+      },
+      "covidVaccinationStatus": "Fully Vaccinated",
+      "groupAffiliation": "Deep Sea Pod",
+      "favoriteFood": "Octopus",
       "gender": "male",
+      "genderPreference": "female",
       "location": "Deep Sea",
-      "interests": [
-        "adventure",
-        "treasure hunting",
-        "exploration"
-      ],
-      "description": "Leo is a daring and fearless dolphin who embarks on thrilling underwater expeditions.",
-      "image": "https://example.com/leo.jpg"
+      "favoriteActivities": ["Deep diving", "Bubble ring play"],
+      "greatestAchievement": "Rescued a baby dolphin entangled in a fishing net",
+      "description": "I'm Leo, a brave and dependable dolphin who is always ready for a daring adventure.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAscNtam81gvMysIXJJ0jKFrJvpfg84x7D3g3_sAwHDHcE3hvEfi4f6C5SxOQAa3qP0rY&usqp=CAU"
     },
     {
       "id": 7,
-      "name": "Pearl",
-      "age": 5,
+      "name": "Bella",
+      "age": 10,
+      "bodyMeasurements": {
+        "length": "2.5 meters",
+        "finSize": "0.5 meters",
+        "tailSize": "0.8 meters"
+      },
+      "covidVaccinationStatus": "Fully Vaccinated",
+      "groupAffiliation": "Crystal Lagoon Pod",
+      "favoriteFood": "Fish",
       "gender": "female",
-      "location": "Crystal Cove",
-      "interests": [
-        "singing",
-        "dancing",
-        "fashion"
-      ],
-      "description": "Pearl is a vibrant and talented dolphin who loves entertaining others with her beautiful melodies.",
-      "image": "https://example.com/pearl.jpg"
+      "genderPreference": "male",
+      "location": "Crystal Lagoon",
+      "favoriteActivities": ["Sun bathing", "Pearl collecting"],
+      "greatestAchievement": "Mastered the art of pearl collecting",
+      "description": "I'm Bella, a calm and caring dolphin who enjoys soaking in the sun and collecting treasures.",
+      "image": "https://i.insider.com/62dbf49421142200185ee42a?width=700"
     },
     {
       "id": 8,
-      "name": "Sam",
+      "name": "Splash",
       "age": 11,
+      "bodyMeasurements": {
+        "length": "2.6 meters",
+        "finSize": "0.5 meters",
+        "tailSize": "0.8 meters"
+      },
+      "covidVaccinationStatus": "Fully Vaccinated",
+      "groupAffiliation": "Bubbling Bay Pod",
+      "favoriteFood": "Sardines",
       "gender": "male",
-      "location": "Mystic Bay",
-      "interests": [
-        "meditation",
-        "mysteries",
-        "astronomy"
-      ],
-      "description": "Sam is a wise and introspective dolphin who seeks profound meaning in the mysteries of the universe.",
-      "image": "https://example.com/sam.jpg"
+      "genderPreference": "female",
+      "location": "Bubbling Bay",
+      "favoriteActivities": ["Jumping high", "Riding the waves"],
+      "greatestAchievement": "Jumped higher than any other dolphin in the bay",
+      "description": "I'm Splash, a joyful and playful dolphin who can't get enough of the waves and the ocean's rhythm.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNhir0SNqN7Qso9jONAGVMTZTitmjEXJkfcGJSRNMzlmHZyLbb3Kl4hNjDhiBI8WUXLMw&usqp=CAU"
     },
     {
       "id": 9,
-      "name": "Misty",
-      "age": 7,
+      "name": "Pearl",
+      "age": 8,
+      "bodyMeasurements": {
+        "length": "2.4 meters",
+        "finSize": "0.4 meters",
+        "tailSize": "0.7 meters"
+      },
+      "covidVaccinationStatus": "Fully Vaccinated",
+      "groupAffiliation": "Sunset Beach Pod",
+      "favoriteFood": "Anchovies",
       "gender": "female",
-      "location": "Enchanted Lagoon",
-      "interests": [
-        "magic tricks",
-        "swimming with dolphins",
-        "art"
-      ],
-      "description": "Misty is a playful and enchanting dolphin who believes in the magic of connection and friendship.",
-      "image": "https://example.com/misty.jpg"
+      "genderPreference": "male",
+      "location": "Sunset Beach",
+      "favoriteActivities": ["Shell decorating", "Sunset watching"],
+      "greatestAchievement": "Decorated a giant clam shell with unique patterns",
+      "description": "I'm Pearl, a peaceful and gentle dolphin who loves observing the ocean's beauty and finding the perfect shell.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb5yBaIm4I0Cv3BUa6Leir4DEEx6Jr-G7mIW8BZJOkgBOUbPlMFePD27wtDDY8Wqbss2E&usqp=CAU"
     },
     {
       "id": 10,
-      "name": "Oscar",
-      "age": 8,
-      "gender": "male",
-      "location": "Silver Coast",
-      "interests": [
-        "fishing",
-        "cooking",
-        "gardening"
-      ],
-      "description": "Oscar is a laid-back and culinary dolphin who enjoys preparing delicious seafood delicacies.",
-      "image": "https://example.com/oscar.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Aqua",
-      "age": 6,
-      "gender": "female",
-      "location": "Coral Reef",
-      "interests": [
-        "reef exploration",
-        "marine conservation",
-        "coral restoration"
-      ],
-      "description": "Aqua is a spirited and eco-conscious dolphin who loves exploring coral reefs and protecting marine life.",
-      "image": "https://example.com/aqua.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Ripple",
-      "age": 7,
-      "gender": "male",
-      "location": "Sunset Bay",
-      "interests": [
-        "sunset watching",
-        "relaxing swims",
-        "sandcastle building"
-      ],
-      "description": "Ripple is a laid-back and beach-loving dolphin who enjoys watching sunsets and building sandcastles.",
-      "image": "https://example.com/ripple.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Lily",
-      "age": 8,
-      "gender": "female",
-      "location": "Mangrove Forest",
-      "interests": [
-        "mangrove exploration",
-        "bird watching",
-        "kayaking"
-      ],
-      "description": "Lily is an adventurous and nature-loving dolphin who explores the beauty of mangrove forests.",
-      "image": "https://example.com/lily.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Storm",
-      "age": 9,
-      "gender": "male",
-      "location": "Stormy Sea",
-      "interests": [
-        "surfing big waves",
-        "storm chasing",
-        "sea photography"
-      ],
-      "description": "Storm is a thrill-seeking and brave dolphin who rides the waves during storms and captures the sea's beauty.",
-      "image": "https://example.com/storm.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Sandy",
-      "age": 10,
-      "gender": "female",
-      "location": "Sandy Shallows",
-      "interests": [
-        "buried treasure hunting",
-        "sand diving",
-        "beachcombing"
-      ],
-      "description": "Sandy is a curious and adventurous dolphin who seeks hidden treasures in sandy shallows.",
-      "image": "https://example.com/sandy.jpg"
-    },
-    {
-      "id": 16,
-      "name": "Neptune",
-      "age": 11,
-      "gender": "male",
-      "location": "Deep Ocean",
-      "interests": [
-        "deep-sea mysteries",
-        "underwater caves",
-        "bioluminescence"
-      ],
-      "description": "Neptune is an enigmatic and mysterious dolphin who dives deep into the ocean to uncover its secrets.",
-      "image": "https://example.com/neptune.jpg"
-    },
-    {
-      "id": 17,
-      "name": "Bubbles",
-      "age": 5,
-      "gender": "female",
-      "location": "Bubble Bay",
-      "interests": [
-        "bubble-blowing contests",
-        "playful water games",
-        "underwater acrobatics"
-      ],
-      "description": "Bubbles is a bubbly and playful dolphin who brings joy through her bubble-blowing skills.",
-      "image": "https://example.com/bubbles.jpg"
-    },
-    {
-      "id": 18,
-      "name": "Mako",
+      "name": "Surf",
       "age": 12,
+      "bodyMeasurements": {
+        "length": "2.8 meters",
+        "finSize": "0.6 meters",
+        "tailSize": "0.9 meters"
+      },
+      "covidVaccinationStatus": "Fully Vaccinated",
+      "groupAffiliation": "Wave Rider Pod",
+      "favoriteFood": "Salmon",
       "gender": "male",
-      "location": "Open Sea",
-      "interests": [
-        "open sea adventures",
-        "freestyle swimming",
-        "dolphin communication"
-      ],
-      "description": "Mako is a spirited and agile dolphin who embarks on open sea adventures and studies dolphin communication.",
-      "image": "https://example.com/mako.jpg"
-    },
-    {
-      "id": 19,
-      "name": "Stella",
-      "age": 7,
-      "gender": "female",
-      "location": "Starry Bay",
-      "interests": [
-        "stargazing",
-        "nighttime swims",
-        "constellation spotting"
-      ],
-      "description": "Stella is a dreamy and night-loving dolphin who enjoys stargazing and swimming under the moonlight.",
-      "image": "https://example.com/stella.jpg"
-    },
-    {
-      "id": 20,
-      "name": "Comet",
-      "age": 8,
-      "gender": "male",
-      "location": "Celestial Sea",
-      "interests": [
-        "celestial wonders",
-        "comet chasing",
-        "galaxy exploration"
-      ],
-      "description": "Comet is an astronomical and curious dolphin who observes celestial wonders and explores the galaxy.",
-      "image": "https://example.com/comet.jpg"
+      "genderPreference": "female",
+      "location": "Wave Rider Bay",
+      "favoriteActivities": ["Surfing", "Bubble blowing"],
+      "greatestAchievement": "Surfed the biggest wave in Wave Rider Bay",
+      "description": "I'm Surf, a lively and athletic dolphin who's all about catching the next big wave.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ARrj3QRhPYuXgHGEeNxZQ3FMD_taLH945p8E_RpJe5_Y__8GXmy_6jBSX8FdZpB9Sdg&usqp=CAU"
     }
   ]
 }
