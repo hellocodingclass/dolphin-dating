@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css'; // Import the styles
+import './styles.css';
 
 const LikedDolphins = ({ likedDolphins }) => {
   return (
